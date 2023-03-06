@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap');
+
+.imagen{
+    width: 150px;
+    height: 100px;
+    float: left;
+
+
+}
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.ima{
+
+    width: 1598px;
+    height: 398px;
+}
+
+*{
+    margin: auto;
+}
+
+body{
+    font-family:  'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: azure;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 2000px;
+    margin: auto;
+    /* margin-top: -8%; */
+    
+}
+
+header{
+    background-color: #F2921D;
+    height: 100px;
+    background-position: center;
+
+}
+header .menu{
+    text-align: right;
+    margin: 40 px 0;
+}
+
+body{
+    background: url(/Recursos/img/transparante.png)  #F5F5F5 ;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.menu{
+    text-align: right;
+    margin: 50px ;
+    
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffff;
+    margin: 0 20px;
+    display: inline-block;
+   
+    padding-bottom: 7px;
+    font-size: 16px;
+    
+
+}
+
+.contenedor-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 390px ;
+    color: black;
+    font-size: 15px;
+   
+
+}
+.contenedor-texto .texto h3{
+    border: 3px solid #ffff;
+    align-self: initial;
+    margin-top: -4%;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid #ffff;
+    border-top: 3px solid #ffff;
+
+
+}
+.Servicios .titulo{
+    text-align: center;
+    color: #161616;
+    margin-top: -10%;
+}
+
+.Servicios .contenedor{
+    display: flex;
+    width: 100%;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    color: #666666;
+    align-content: center;
+    overflow: visible;
+  
+}
+
+.Servicios .contenedor .Soporte{
+    font-size: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    flex: 1 10px;
+    padding: 0.5rem;
+    margin: 2rem;
+    transition: 0.4;
+}
+
+.Servicios .contenedor .bd{
+    font-size: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    flex: 1 10px;
+    padding: 0.5rem;
+    margin: 2rem;
+    transition: 0.4;
+}
+
+.Servicios .contenedor .desarrollo{
+    font-size: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    flex: 1 10px;
+    padding: 0.5rem;
+    margin: 2rem;
+    transition: 0.4;
+}
+
+.Servicios  .contenedor .Soporte:hover{
+    border: 2px solid #E7AB9A ;
+
+}
+
+.Servicios  .contenedor .bd:hover{
+    border: 2px solid #E7AB9A ;
+
+}
+
+.Servicios  .contenedor .desarrollo:hover{
+    border: 2px solid #E7AB9A ;
+
+}
+
+.texto-encima{
+    width: 600px;
+    height: 600px;
+}
+
+.Productos{
+    background-color: #ffff;
+    padding: 20px 0;
+}
+.Productos .Titulo{
+    font-size: 2rem;
+    margin-bottom: 40 px;
+    color: coral;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+
+.contenedor-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.card {
+    width: 230px;
+    background-color: white;
+    margin: 1rem;
+    box-shadow: 2px 2px 10px 1px rgba(97, 97, 97, 0.3);
+    border-radius: 10px;
+    /* padding: 0 0 10px 0; */
+    overflow: hidden;
+   
+  }
+   
+  .card-image {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .card-image img {
+    height: inherit;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.4s linear;
+    width: 100%;
+  }
+   
+  .card-image img:hover {
+    object-fit: cover;
+    transform: scale(1.2);
+  }
+   
+  .card-text {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+   
+  .card-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+   
+  .card-text p {
+    line-height: 1.5rem;
+  }
+   
+  .card-text a {
+    color: #ffb703;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.5s all linear;
+    background-color: #023047;
+    border-radius: 10px;
+  }
+   
+  .card-text a:hover {
+    background-color: #ffb703;
+    color: #023047;
+  }
+  footer .contacto {
+    padding: 60px 0;
+    background-color:#e69f48 ;
+    justify-content: center;
+  }
+  
+  footer .contacto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #3895ea;
+    text-align: center;
+  }
+  
+  footer .contacto .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  footer .contacto .formulario input[type="text"],
+  footer .contacto .formulario input[type="email"],
+  footer .contacto .formulario textarea {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;
+    justify-content: center;
+  }
+  
+  footer .contacto .formulario input[type="text"]:focus,
+  footer .contacto .formulario input[type="email"]:focus,
+  footer .contacto .formulario textarea:focus {
+    border: 2px solid #3895ea;
+  }
+  
+  footer .contacto .formulario input[type="text"],
+  footer .contacto .formulario input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+  }
+  
+  footer .contacto .formulario textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+  }
+  
+  footer .contacto .formulario .boton {
+    margin: auto;
+    background: #3895ea;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
+    cursor: pointer;
+  }
+  
+  footer .contacto .formulario .boton:hover {
+    background: #387bea;
+  }
+  
+footer .redes-sociales {
+    background: #1e2b38;
+    padding: 60px 0;
+  }
+  
+  footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer .redes-sociales a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 20px;
+  }
+  
+  footer .redes-sociales .twitter:hover {
+    background: #1da1f2;
+  }
+  
+  footer .redes-sociales .facebook:hover {
+    background: #3b5998;
+  }
+  
+  footer .redes-sociales .youtube:hover {
+    background: #cd201f;
+  }
+  
+  footer .redes-sociales .github:hover {
+    background: #666666;
+  }
+  
+  footer .redes-sociales .instagram:hover {
+    background: #3f729b;
+  } 
